@@ -1,0 +1,82 @@
+.single-review-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.single-review-container .avatar img {
+    width: 90px !important;
+    height: 90px !important;
+    border-radius: 50%;
+}
+
+.username {
+    font-weight: bold;
+    margin: 0;
+}
+
+.review-text {
+    margin: 5px 0;
+}
+
+.actions {
+    margin-left: auto;
+}
+
+.single-review-container .content {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.content p {
+    color: black;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropbtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+.dropdown-content button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    padding: 8px 12px;
+}
+
+.dropdown-content button:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* for responsive */
+
+@media only screen and (max-width: 768px) {
+    .content p {
+        font-size: 14px;
+        float: left;
+      }
+
+  
+}

@@ -1,0 +1,75 @@
+.welcome-title {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.register-container {
+    max-width: 400px;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2eaea;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.right-container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+.register-container [type='text'],
+.register-container input[type='email'],
+.register-container input[type='password'],
+#username,
+.register-container select {
+    width: 70% !important;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type='submit'] {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button[type='submit']:hover {
+    background-color: #6068c0;
+    border-radius: 8px;
+
+}
+
+.bottom-body-container p {
+    color: black;
+}
+
+.login-link {
+    text-decoration: underline !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .welcome-title {
+        font-size: 20px;
+    }
+}

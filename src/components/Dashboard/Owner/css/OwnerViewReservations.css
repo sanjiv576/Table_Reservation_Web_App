@@ -1,0 +1,30 @@
+
+  .reservations-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 40px;
+  }
+
+  p{
+    float: left;
+    
+  }
+  
+  .reservation-card {
+    /* background-color: #f2f2f2; */
+    background-color: #4182e2;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  /* For Responsive  */
+  
+  @media screen and (max-width: 768px) {
+    .reservations {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+  }
+  

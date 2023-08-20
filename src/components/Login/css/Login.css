@@ -1,0 +1,116 @@
+.app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcCQZiORuTwBwJ51KAdUnJLyTUuHUWDdG1lg&usqp=CAU');
+
+
+}
+
+.success-div {
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-button {
+    text-decoration: underline;
+}
+
+.input-container-input label {
+    color: black !important;
+}
+
+#username-input,
+#userPassword-input {
+    width: 40% !important;
+    padding: 12px;
+    border: 2px solid #ccc;
+    text-align: left;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: black;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 12px;
+    width: 200px;
+}
+
+[type="submit"]:hover {
+    background: darkblue;
+    border-radius: 8px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    background-color: white;
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.login-form p {
+    color: black;
+}
+
+.list-container {
+    display: flex;
+}
+
+.error {
+    color: white;
+    font-size: 12px;
+    padding: 4px;
+    background-color: rgb(201, 74, 74);
+    width: 40%;
+}
+
+.title {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .login-form {
+
+        width: 80%;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+}

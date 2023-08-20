@@ -1,0 +1,13 @@
+.main-section .title-section #title-header{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/* .main-section .favorite-section{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */

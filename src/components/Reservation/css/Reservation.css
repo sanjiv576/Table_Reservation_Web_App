@@ -1,0 +1,15 @@
+.reserve-container {
+
+    background-color: yellow !important;
+    height: 400px !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #my-title {
+        font-size: 25px !important;
+    }
+}

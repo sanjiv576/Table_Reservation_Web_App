@@ -1,0 +1,40 @@
+
+img{
+    height: 90%;
+}
+.restaurant-single-card{
+    /* align-items: center; */
+    /* text-align: ; */
+    float: left;
+    display: flex;
+    flex-direction: row;
+    flex-grow: wrap;
+    gap: 40px;
+    background-color: rebeccapurple !important;
+    padding: 4px;
+    margin: 10px;
+    height: 500px;
+}
+.restaurant-details{
+    float: left !important;
+}
+.restaurant-body{
+    padding:10px;
+    border: 1px solid #ccc; 
+    margin: 5px
+}
+p, h2, button{
+    color: white;
+}
+
+button:hover{
+    color: white;
+    background-color: blueviolet !important;
+    border-radius: 12px !important;
+}
+
+button{
+    justify-content: space-between !important;
+    flex-grow: 1;
+    text-align: center;
+}

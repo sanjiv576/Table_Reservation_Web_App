@@ -1,0 +1,20 @@
+.review-section input[type='text'] {
+    width: 40% !important;
+    gap: 10px;
+}
+
+.review-section input[type='submit']{
+    width: 20% !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .review-section input[type='text'] {
+        width: 60% !important;
+    }
+
+    .review-section input[type='submit']{
+        width: 30% !important;
+    }
+  }
+

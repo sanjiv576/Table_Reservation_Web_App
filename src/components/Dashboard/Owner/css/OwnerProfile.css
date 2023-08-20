@@ -1,0 +1,131 @@
+
+html{
+  background-color: #f5f5f5 !important;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 30px auto 30px;
+}
+
+.profile-picture img {
+    width: 100vh;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details {
+    margin-left: 30px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input[type='text'] {
+    width: 65% !important;
+    padding: 10px !important;
+    border: 2px solid #ccc;
+    text-align: center;
+
+
+}
+
+
+.individual-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+}
+
+.label-name {
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.details {
+    padding: 12px;
+    float: left;
+    color: black;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.profile-details>div {
+    width: 50%;
+    gap: 10px;
+    align-items: center;
+
+
+}
+
+.right-profile-details {
+    align-items: center;
+
+}
+
+/* for mobile and tablet */
+@media screen and (max-width: 768px) {
+    .profile-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .profile-picture img {
+      height: 200px;
+    }
+  
+    .profile-details {
+      margin-left: 0;
+      width: 100%;
+      flex-direction: column;
+    }
+  
+    .right-profile-details {
+      margin-top: 20px;
+    }
+  
+    .right-profile-details label {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .individual-container {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .label-name {
+      margin-bottom: 5px;
+    }
+  }
+  
+  /* responsiveness for desktop and laptop */
+  @media screen and (min-width: 769px) {
+    .profile-container {
+      height: 100vh;
+    }
+  
+    .profile-picture img {
+      height: 300px;
+    }
+  
+    .profile-details {
+      margin-left: 30px;
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .individual-container {
+      flex-direction: row;
+      gap: 20px;
+    }
+  
+  }
+  

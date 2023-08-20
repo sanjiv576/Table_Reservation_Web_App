@@ -1,0 +1,57 @@
+.outer-container {
+    background-image: url('https://media.cntraveler.com/photos/61017da4a41bc3aa30d3b547/16:9/w_2580,c_limit/Liza%20nouveau%20restaurant%20%C2%A9%20Joann%20Pai%20(39).jpg');
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    /* height: 100vh; */
+}
+
+.profile-picture {
+    justify-content: center;
+}
+
+.inner-container {
+    background-color: white;
+    /* height: 80%; */
+    padding: 30px;
+    width: 50%;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+    padding: 18;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    border: 1px solid #01d28e;
+    padding: 10px 20pxrgb(7, 63, 45);
+    border-radius: 12px;
+
+    box-shadow: #01d28e;
+}
+
+input,
+#my-password {
+    width: 40% !important;
+    height: 40px;
+    border-radius: 10px !important;
+    padding: 10px !important;
+
+}
+
+.bottom-container {
+    flex-direction: row;
+
+}
+
+#my-password {
+    border: 2px solid #ccc;
+}
+
+@media only screen and (max-width: 768px) {
+    .inner-container {
+        margin: 10px auto 10px auto;
+        width: 80% !important;
+    }
+}

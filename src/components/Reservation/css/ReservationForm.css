@@ -1,0 +1,25 @@
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'daisyui/dist/full.css';
+.top-container{
+    background-color: black;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.input-container label{
+    color: white;
+}
+h1{
+    color: white;
+}
+.input-container{
+    gap :30px;
+
+}
+
+
+.submit-button{
+    width: 20% !important;
+}

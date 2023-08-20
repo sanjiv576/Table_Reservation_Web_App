@@ -1,0 +1,62 @@
+.food-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+#restaurant-name,
+#menu-content {
+    color: black;
+    font-size: 32px;
+    font-style: italic;
+}
+
+
+
+.food-item {
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+}
+
+.food-name {
+    font-weight: bold;
+}
+
+.food-price {
+    color: #007bff;
+}
+
+.food-type {
+    color: #28a745;
+}
+
+
+@media screen and (max-width: 768px) {
+    .food-list {
+        justify-content: center;
+    }
+
+    .food-item {
+        width: 100%;
+    }
+
+    #restaurant-name {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
